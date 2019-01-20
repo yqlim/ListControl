@@ -1,0 +1,38 @@
+{
+  "name": "listcontrol",
+  "version": "1.0.0",
+  "description": "A simple JavaScript tool as internal pointer in lists.",
+  "main": "./lib/listcontrol.js",
+  "browser": "./lib/listcontrol.min.js",
+  "license": "MIT",
+  "author": "Yong Quan Lim <yqlim2394@gmail.com>",
+  "scripts": {
+    "build": "npm run rollup && npm run terser",
+    "rollup": "rollup -c",
+    "terser": "terser -c -m --comments /license/i -o ./lib/listcontrol.min.js ./lib/listcontrol.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.3",
+    "rollup": "^1.1.0",
+    "rollup-plugin-babel": "^4.3.0",
+    "terser": "^3.14.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yqlim/ListControl.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yqlim/ListControl/issues"
+  },
+  "homepage": "https://github.com/yqlim/ListControl#readme",
+  "keywords": [
+    "internal",
+    "pointer",
+    "internalpointer",
+    "array",
+    "arraypointer",
+    "list",
+    "listpointer"
+  ]
+}
