@@ -8,8 +8,6 @@ ListControl.js aims to provide that functionality. It is extended from the nativ
 
 ## Installation
 
-With NPM
-
 ```
 npm install listcontrol
 ```
@@ -17,7 +15,18 @@ npm install listcontrol
 ## Usage
 
 ```javascript
-const list = new ListControl('a', 'b', 'c')
+const ListControl = require('listcontrol');
+
+const list = new ListControl('a', 'b', 'c');
+```
+
+OR with HTML:
+
+```html
+<script src="path/to/listcontrol.min.js"></script>
+<script>
+const list = new ListControl('a', 'b', 'c');
+</script>
 ```
 
 ## Property

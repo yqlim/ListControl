@@ -3,7 +3,7 @@ export default class ListControl extends Array {
   constructor(...items){
     super(...items);
 
-    Object.defineProperties(this, {
+    Object.defineProperty(this, {
       index: {
         value: 0,
         writable: true
