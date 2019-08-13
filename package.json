@@ -1,6 +1,6 @@
 {
   "name": "listcontrol",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple JavaScript tool as internal pointer in lists.",
   "main": "./lib/listcontrol.js",
   "browser": "./lib/listcontrol.min.js",
