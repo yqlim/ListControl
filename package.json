@@ -19,7 +19,7 @@
     "@babel/preset-env": "^7.2.3",
     "rollup": "^1.1.0",
     "rollup-plugin-babel": "^4.3.0",
-    "terser": "^3.14.1"
+    "terser": "^4.8.1"
   },
   "repository": {
     "type": "git",
