@@ -2,17 +2,17 @@
   "name": "listcontrol",
   "version": "1.0.5",
   "description": "A simple JavaScript tool as internal pointer in lists.",
-  "main": "./lib/listcontrol.js",
-  "browser": "./lib/listcontrol.min.js",
+  "main": "./dist/listcontrol.js",
+  "browser": "./dist/listcontrol.min.js",
   "license": "MIT",
   "author": "Yong Quan Lim <yqlim2394@gmail.com>",
   "files": [
-    "lib"
+    "dist"
   ],
   "scripts": {
     "build": "npm run rollup && npm run terser",
     "rollup": "rollup -c",
-    "terser": "terser -c -m --comments /license/i -o ./lib/listcontrol.min.js ./lib/listcontrol.js"
+    "terser": "terser -c -m --comments /license/i -o ./dist/listcontrol.min.js ./dist/listcontrol.js"
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",
